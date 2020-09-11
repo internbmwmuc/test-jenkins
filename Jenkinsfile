@@ -18,7 +18,6 @@ pipeline {
     stage('Deploy') {
       steps {
         echo 'Deploy started...'
-        mail(subject: 'Finish deploy', body: 'Testing email', from: 'test-jenkins@bmw.de', to: 'intern.bmw.muc@gmail.com')
       }
     }
 
